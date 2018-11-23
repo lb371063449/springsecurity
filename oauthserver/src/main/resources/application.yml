@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  redis:
+    host: eshop-cache02
+    port: 6379
+
+logging:
+  level:
+    root: info
+    org.springframework.web: info
+    org.springframework.security: info
